@@ -1,6 +1,7 @@
 import { Box, Container, Divider, Grid, Paper, Typography } from '@mui/material'
 import React from 'react'
 import { Title } from '../component/ui'
+import { SocialLogo } from '../component'
 
 export const About = ({id}:{id:string}) => {
   return (
@@ -16,12 +17,13 @@ export const About = ({id}:{id:string}) => {
             //bgcolor:'red'
 
           }}>
-          <Box sx={{pb:{xs:9,md:9},}}>
+          <Box sx={{}}>
             
           </Box>
         </Grid>
+
         <Grid item xs={12} md={8}>
-          <Box sx={{display:'flex',justifyContent:'center',mb:4,mt:2}}>
+          <Box sx={{display:'flex',justifyContent:'center',mb:{xs:1,sm:4}, mt:2}}>
           <Title title='About'/>
           </Box>
           <Box >
@@ -38,6 +40,9 @@ export const About = ({id}:{id:string}) => {
           <Typography sx={{py:0.5}}>
           &ensp;&emsp; &emsp; <Box component={'span'} sx={{fontWeight:'bold',color:'#0088ff'}}>My goal is to build technology that improves lives and empowers communities</Box>. If you're interested in collaborating , feel free to reach out!
           </Typography>
+          <Box sx={{display:'flex', justifyContent:'center',my:1}}>
+            <SocialLogo size={30} fill='white'/>
+          </Box>
           <Divider sx={{mt:2}}/>
           </Box>
         </Grid>

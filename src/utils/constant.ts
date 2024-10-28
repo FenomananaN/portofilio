@@ -13,12 +13,12 @@ export const page = [
     {
         title: 'About',
         link: 'about',
-        offset: 0
+        offset: -60
     },
     {
         title: 'Services',
         link: 'service',
-        offset: 0
+        offset: -70
     },
     {
         title: 'Skills',

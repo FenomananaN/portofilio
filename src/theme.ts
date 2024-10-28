@@ -1,5 +1,7 @@
 import { createContext, useState, useMemo } from "react";
 import { createTheme } from "@mui/material/styles";
+//extend type typscript
+import { PaletteOptions } from "@mui/material/styles";
 
 type modeType = "dark"| "light"
 
@@ -26,6 +28,14 @@ type themeType = {
     palette: PaletteType,
     typography : {}
   };
+
+
+//declaring it for button
+declare module "@mui/material/Button" {
+  interface ButtonPropsColorOverrides {
+    strongBlue: true;
+  }
+}
 
 // color design tokens export
 export const tokens = (mode: modeType) => ({
@@ -152,7 +162,7 @@ export const themeSettings = (mode:modeType): themeType => {
   return {
     palette: {
       mode: mode,
-      blue: {
+      strongBlue: {
         dark: colors.blueAccent[700],
         main: colors.blueAccent[500],
         light: colors.blueAccent[100],
@@ -218,7 +228,7 @@ export const themeSettings = (mode:modeType): themeType => {
     },
     typography: {
       "fontFamily": `"Tw Cen MT","Space Mono","monospace","Roboto", "Helvetica", "Arial", sans-serif`,
-      "fontSize": 16,
+      "fontSize": 15,
       "fontWeightLight": 300,
       "fontWeightRegular": 400,
       "fontWeightMedium": 500
