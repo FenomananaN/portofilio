@@ -37,6 +37,12 @@ declare module "@mui/material/Button" {
   }
 }
 
+declare module "@mui/material/TextField" {
+  interface TextFieldPropsColorOverrides {
+    strongBlue: true;
+  }
+}
+
 // color design tokens export
 export const tokens = (mode: modeType) => ({
   ...(mode === "dark"

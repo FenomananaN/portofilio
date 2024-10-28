@@ -1,7 +1,7 @@
 import { Box } from '@mui/material'
 import React from 'react'
-import { Header } from '../component/ui'
-import { About, Home, Services } from '../scene'
+import { Footer, Header } from '../component/ui'
+import { About, Contact, Home, Services } from '../scene'
 
 export const Main = () => {
   return (
@@ -10,6 +10,8 @@ export const Main = () => {
       <Home id='home'/>
       <About id='about'/>
       <Services id='service'/>
+      <Contact id='contact'/>
+      <Footer/>
     </Box>
   )
 }

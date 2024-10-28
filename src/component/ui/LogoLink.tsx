@@ -6,7 +6,7 @@ type LogoProps = {
 }
 export const LogoLink = ({logo,to}:LogoProps) => {
   return (
-    <IconButton>
+    <IconButton href={to} target='_blank' rel='noopener noreferrer'>
         {logo}
     </IconButton>
   )

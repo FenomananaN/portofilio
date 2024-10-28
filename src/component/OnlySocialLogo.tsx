@@ -9,11 +9,9 @@ import { ReactComponent as GmailIcon } from '../asset/logo/gmail-cropped.svg'
 
 import { LogoLink } from './ui'
 
-export const SocialLogo = ({size, fill}:{size:number,fill:string}) => {
+export const OnlySocialLogo = ({size, fill}:{size:number,fill:string}) => {
   return (
     <Box sx={{display:'flex'}}>
-
-        <LogoLink to='mailto:fenomanana.nomejanahary@gmail.com' logo={<GmailIcon width={size} height={size} fill={fill}/>}/>
         <LogoLink to='https://www.facebook.com/raval.nomenjanahary' logo={<FacebookIcon width={size} height={size} fill={fill}/>}/>
         <LogoLink to='https://x.com/realXRAVAL' logo={<XIcon width={size} height={size} fill={fill}/>} />
         <LogoLink to='https://www.linkedin.com/in/fenomanana-nomenjanahary' logo={<LinkedinIcon  width={size} height={size} fill={fill}/>}/>
