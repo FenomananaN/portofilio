@@ -45,8 +45,8 @@ export const Header = (props: any) => {
       <>
       <ElevationScroll {...props}>
         <AppBar>
-          <Container>
-            <Toolbar>
+          <Container sx={{xs:'none',md:'flex'}}>
+            <Toolbar sx={{px:0}}>
             <Box sx={{display:{ xs: 'none', md: 'flex' }}}>
                     XR
                 </Box>
@@ -146,7 +146,7 @@ export const Header = (props: any) => {
                 </Box>
                 {/* END LARGE VIEW */}
             </Toolbar>
-          </Container>
+            </Container>
         </AppBar>
       </ElevationScroll>
       </>

@@ -218,7 +218,7 @@ export const themeSettings = (mode:modeType): themeType => {
     },
     typography: {
       "fontFamily": `"Tw Cen MT","Space Mono","monospace","Roboto", "Helvetica", "Arial", sans-serif`,
-      "fontSize": 14,
+      "fontSize": 16,
       "fontWeightLight": 300,
       "fontWeightRegular": 400,
       "fontWeightMedium": 500
