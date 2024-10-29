@@ -47,28 +47,13 @@ export const Header = (props: any) => {
         <AppBar>
           <Container sx={{xs:'none',md:'flex'}}>
             <Toolbar sx={{px:0}}>
+
+
+                {/* logo */}
             <Box sx={{display:{ xs: 'none', md: 'flex' }}}>
-                    XR
+                    
                 </Box>
-               {/*
-               <Typography
-                    variant="h5"
-                    noWrap
-                    component="a"
-                    href="#app-bar-with-responsive-menu"
-                    sx={{
-                    mx: 2,
-                    display: { xs: 'none', md: 'flex' },
-                    fontFamily: 'monospace',
-                    fontWeight: 700,
-                    letterSpacing: '.5rem',
-                    color: 'inherit',
-                    textDecoration: 'none',
-                    }}
-                >
-                    TATA
-                </Typography>
-               */} 
+            
                 <Box sx={{
                     display: {xs:'none',md:'flex'},
                     flexDirection: 'column',
@@ -76,7 +61,7 @@ export const Header = (props: any) => {
                     ml:2
                 }}>
                     <Typography align={'center'} variant='h6' sx={{fontWeight:'bold', fontFanily:'Mono'}} width={40} height={40}>
-                        XRaval
+                        Fenomanana
                     </Typography>
                 </Box>
 
@@ -95,9 +80,10 @@ export const Header = (props: any) => {
                     <DrawerAppbar page={page} open={anchorElNav} setOpen={setAnchorElNav}/>
                     
                 </Box>
-                
+
+                {/* logo */}
                 <Box sx={{display:{ xs: 'flex', md: 'none' }}}>
-                    XR
+                    
                 </Box>
                 
                 {/*

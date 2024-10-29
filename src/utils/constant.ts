@@ -23,7 +23,7 @@ export const page = [
     {
         title: 'Skills',
         link: 'skills',
-        offset: 0
+        offset: -70
     },
     {
         title: 'Project',
@@ -39,7 +39,7 @@ export const page = [
     {
         title: 'Contact',
         link: 'contact',
-        offset:0
+        offset:-70
     },
     
 ]

@@ -6,11 +6,11 @@ export const Home = ({id}:{id:string}) => {
 
     <Container>
     <Box id={id} sx={{
-      height:'100vh',
+      height:{xs:'fit-content',md:'100vh'},
       pt:{xs:9,md:9},
       //bgcolor:'red'
     }}>
-      <Grid container sx={{height:'100%',}}>
+      <Grid container sx={{height:{xs:'fit-content',md:'100%'},py:6}}>
         <Grid item xs={12} md={6} 
           sx={{
             display:'flex',
@@ -20,7 +20,7 @@ export const Home = ({id}:{id:string}) => {
 
           }}>
           <Box sx={{pb:{xs:9,md:9},}}>
-            <Typography variant='h6' color='#0088ff'>
+            <Typography variant='h6' color='#0088ff' sx={{fontSize:20}}>
               NOMENJANAHARY Fenomanana Valentin
             </Typography>
             <Box sx={{display:'flex',mt:1,}}>
@@ -29,8 +29,8 @@ export const Home = ({id}:{id:string}) => {
             </Box>
             <Typography variant='h3' color='#0088ff'  sx={{fontSize:{xs:36,md:50},fontWeight:'bold'}}>Fullstack Developer</Typography>
             <Typography sx={{mt:1}}>
-              Enthusiastic tech innovator and educator dedicated to empowering communities 
-              <br/>through coding, language learning, and sustainable solutions.</Typography>
+              Enthusiastic tech innovator and leader to empowering communities 
+              <br/>through sustainable solutions.</Typography>
               <Box sx={{display:'flex', mt:2}}>
                   <Button color='strongBlue' variant='contained'>Conctact</Button>
                   <Button color='strongBlue' variant='outlined' sx={{ml:1}}>Download my CV</Button>

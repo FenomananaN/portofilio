@@ -18,17 +18,17 @@ export const Services = ({id}:{id:string}) => {
         </Typography>
         <Grid container sx={{display:'flex', justifyContent:'start', mt:2}}>
           <Grid item xs={12} md={4}>
-              <Paper sx={{p:1, m:1 }}>
+              <Paper sx={{p:2, m:1 ,height:300}}>
                 <Box sx={{display:'flex',justifyContent:'center',mb:1}}>
                   <Box component='img' src={uxui} width={'60%'}/>
                 </Box>
                 <Typography variant='h6' align='center' sx={{color:'#0088ff', fontWeight:'bold', fontSize:16}}>UX/UI DESIGN</Typography>
                 <Typography>User Interface Design</Typography>
-                <Typography>Logo,flyers,post maker</Typography>
+                <Typography>Logo,social media post,flyers and poster design</Typography>
               </Paper>
           </Grid>
           <Grid item xs={12} md={4}>
-              <Paper sx={{p:1, m:1 }}>
+              <Paper sx={{p:2, m:1 ,height:300}}>
               <Box sx={{display:'flex',justifyContent:'center',mb:1}}>
                   <Box component='img' src={webDev} width={'60%'}/>
                 </Box>
@@ -38,33 +38,33 @@ export const Services = ({id}:{id:string}) => {
               </Paper>
           </Grid>
           <Grid item xs={12} md={4}>
-              <Paper sx={{p:1, m:1 }}>
-              <Box sx={{display:'flex',justifyContent:'center',mb:1}}>
+              <Paper sx={{p:2, m:1 ,height:300}}>
+                <Box sx={{display:'flex',justifyContent:'center',mb:1}}>
                   <Box component='img' src={bcImg} width={'60%'}/>
                 </Box>
                 <Typography variant='h6' align='center' sx={{color:'#0088ff', fontWeight:'bold', fontSize:16}}>BLOCKCHAIN APPLICATION</Typography>
-                <Typography>Creation of  token, smartcontract, etc.</Typography>
-                <Typography>Interactive and dynamic web applications</Typography>
+                <Typography>Token creation, smartcontract development, etc.</Typography>
+                <Typography>Fontend Application for Smartcontact</Typography>
               </Paper>
           </Grid>
           <Grid item xs={12} md={4}>
-              <Paper sx={{p:1, m:1}}>
+              <Paper sx={{p:2, m:1,height:300}}>
                 <Box sx={{display:'flex',justifyContent:'center',mb:1}}>
                   <Box component='img' src={dcImg} width={'60%'}/>
                 </Box>
-                <Typography variant='h6' align='center' sx={{color:'#0088ff', fontWeight:'bold', fontSize:16}}>DATA SCIENCE</Typography>
-                <Typography>Creation of  token, smartcontract, etc.</Typography>
-                <Typography>Interactive and dynamic web applications</Typography>
+                <Typography variant='h6' align='center' sx={{color:'#0088ff', fontWeight:'bold', fontSize:16}}>DATA SCIENCE & IA</Typography>
+                <Typography>Data Analysis and Visualization.</Typography>
+                <Typography>Prompt Engineering and Optimization, Fine-tuning AI Models(ChatGpt,Gemini)</Typography>
               </Paper>
           </Grid>
           <Grid item xs={12} md={4}>
-              <Paper sx={{p:1, m:1 }}>
+              <Paper sx={{p:2, m:1 ,height:300}}>
               <Box sx={{display:'flex',justifyContent:'center',mb:1}}>
                   <Box component='img' src={mobilImage} width={'60%'}/>
                 </Box>
                 <Typography variant='h6' align='center' sx={{color:'#0088ff', fontWeight:'bold', fontSize:16}}>MOBILE APPLICATION</Typography>
-                <Typography>Creation of  crossplatform app.</Typography>
-                <Typography>Android native app</Typography>
+                <Typography>Cross-Platform App Development.</Typography>
+                <Typography>Native Android App Development:</Typography>
               </Paper>
           </Grid>
         </Grid>
